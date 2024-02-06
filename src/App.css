@@ -1,66 +1,75 @@
 html{
   min-height: 100%;
   }
-   body {
-      background-image: url("../public/ivan-torres-AXz346Rhs6A-unsplash.jpg");
-      background-color: #cccc;
-      background-size: cover;
-      background-repeat: no-repeat;
-   }
+
+body {
+  background-image: url("../public/ivan-torres-AXz346Rhs6A-unsplash.jpg");
+  background-color: #cccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
   
-  .maindiv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .h1Title {
-    font-size: 3.5em;
-    text-wrap: nowrap;
-  }
-  
-  .reactLogo{
-    width: 50px;
-    height: 50px;
-    /* padding-top: 31px;
-    padding-left: 26px; */
-    margin-right: 2em;
-  }
+.maindiv {
+  margin-left: 3em;
+  } 
 
-  .logoText{
-    font-weight: 700;
-    font-size: 40px;
-    height: 26.93px;
-    white-space: nowrap;
-    margin-right: auto;
-    color: #00D8FF;
-  }
+li {
+  padding: .5em;
+  font-size: 30px;
+}
 
-  .logoText2{
-    font-weight: 600;
-    color: white;
-    white-space: nowrap;
-  }
+li::marker {
+  color: #00D8FF;
+  font-size: 1.5em;
+}
 
-  .navbarDiv {
-    display: flex;
-    background: #21222A;
-    align-items: center;
-    height: 90px;
-    padding: 30px 25px;
-    justify-content: space-between;
-  }
+.h1Title {
+  font-size: 3.5em;
+  text-wrap: nowrap;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
 
-  .logoText, .logoText2 {
-    margin: 0;
-  }
+.reactLogo{
+  width: 50px;
+  height: 50px;
+  margin-right: 2em;
+}
 
-  
-  .list{
-    font-size: x-large;
-    font-weight: bold;
-  }
+.logoText{
+  font-weight: 700;
+  font-size: 40px;
+  height: 26.93px;
+  white-space: nowrap;
+  margin-right: auto;
+  color: #00D8FF;
+}
 
-  .leftSideNav {
-    display: flex;
-  }
+.logoText2{
+  font-weight: 600;
+  color: white;
+  white-space: nowrap;
+}
+
+.navbarDiv {
+  display: flex;
+  background: #21222A;
+  align-items: center;
+  height: 90px;
+  padding: 30px 25px;
+  justify-content: space-between;
+}
+
+.logoText, .logoText2 {
+  margin: 0;
+}
+
+
+.list{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.leftSideNav {
+  display: flex;
+}

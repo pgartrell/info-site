@@ -1,7 +1,7 @@
 import './App.css';
 
 
-function App() {
+function Main() {
   return (
     <div>
       <div className="maindiv">        
@@ -21,5 +21,5 @@ function App() {
   );
 }
 
-export default App;
+export default Main;
 
