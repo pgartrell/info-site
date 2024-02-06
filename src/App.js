@@ -3,8 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <nav>
-      <img className="reactLogo" src="/logo512.png" alt=""/>
+    <div>
       <div className="maindiv">        
           <div>
             <h1 className="h1Title">Fun facts about Me</h1>
@@ -18,7 +17,7 @@ function App() {
               </ul>
             </div>
         </div>
-    </nav>
+    </div>
   );
 }
 
